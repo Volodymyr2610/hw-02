@@ -1,5 +1,46 @@
-h2 {color: #2E2F42;
-    ;}
-body {color: #FFFFFF;
-    ;}
-    ul {list-style: none;}
+h1 { color: #FFFFFF;}
+
+h2 {color: #2E2F42;}
+
+ul {list-style: none;}
+
+.hero{background: #2E2F42;}
+.hero-header {font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;}
+
+a {text-decoration: none;}
+
+.nav {color:#2E2F42;}
+
+.adres {color:  #434455;}
+
+.a {color:#2E2F42;}
+
+.OurTeam {color: #F4F4FD;}
+
+h3 {color: #2E2F42;}
+
+p {color: #434455;}
+
+.OrderService {
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px; 
+    border-radius: 4px;
+    background: #4D5AE5;}
+
+.button-portfolio {color:#4D5AE5; background: #F4F4FD;}
+
+.button-all {color:  #FFFFFF; background-color:  #404BBF;}
+
+.advantages-list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;}
+
+.advantages-list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;}
