@@ -9,15 +9,29 @@ ul {list-style: none;}
     font-size: 56px;
     line-height: 60px;}
 
-a {text-decoration: none;}
+.a {text-decoration: none;}
 
 .nav {color:#2E2F42;}
 
-.adres {color:  #434455;}
+.adres {color:  #434455;
+}
 
 .a {color:#2E2F42;}
 
-.OurTeam {color: #F4F4FD;}
+.our-team {color: #F4F4FD;}
+
+.our-team h2 {font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;}
+
+.our-team h3 {font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;}
+
+.our-team p {font-weight: 400;
+    font-size: 16px;
+    line-height: 24px}
 
 h3 {color: #2E2F42;}
 
@@ -44,3 +58,32 @@ p {color: #434455;}
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;}
+
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;}
+
+.contact-link {font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+    }
+
+.logo {font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    }
+
+.main-nav {font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;}
+    ul {
+        list-style: none;
+      }
