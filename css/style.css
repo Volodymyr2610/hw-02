@@ -13,8 +13,8 @@
     --team-section-style: ;
   }
 
-  .link {text-decoration: none;
-    list-style: none;}
+  .link {text-decoration: none;}
+  
 body {font-family: 'Roboto', sans-serif;
     background-color: var(--white-text);
     color: var(--main-text-color)
