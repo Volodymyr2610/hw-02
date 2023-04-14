@@ -1,14 +1,29 @@
-.link {text-decoration: none;
+:root {
+    --main-text-color: #434455;
+    --text-header:#2E2F42;
+    --color-hero:#2E2F42;
+    --Light-mode-ourteam:#F4F4FD;
+    --main-btn: #F4F4FD;;
+    --nav-color: #4D5AE5;
+    --advantages-paragraph: #757575;
+    --footer-bgc: ;
+    --contacts-color: #757575;
+    --white-text: #ffffff;
+    --black: #000000;
+    --team-section-style: ;
+  }
+
+  .link {text-decoration: none;
     list-style: none;}
 body {font-family: 'Roboto', sans-serif;
-    color: #434455;}
+    background-color: var(--white-text);
+    color: var(--main-text-color)
+}
 
     ul {list-style: none;}
 
-    h1 { color: #FFFFFF;}
-
-
-h2 {color: #2E2F42;}
+    h1 { color: var(--white-text)}
+h2, h3, a {color: var(--text-header)}
 
 h3 {font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -16,7 +31,7 @@ h3 {font-family: 'Roboto', sans-serif;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
+    }
 
 p {font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -24,13 +39,13 @@ p {font-family: 'Roboto', sans-serif;
         line-height: 24px;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #434455;}
+        color: var(--main-text-color);}
 
-.hero{background: #2E2F42;}
+.hero{background: var(--color-hero);}
 
-.a {color:#2E2F42;}
 
-.our-team {color: #F4F4FD;}
+.our-team {background-color:var(--Light-mode-ourteam);
+}
 
 .logo {text-decoration: none;
     list-style: none;
@@ -42,7 +57,7 @@ p {font-family: 'Roboto', sans-serif;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--nav-color);
 }
 
     .nav-link {font-family: 'Roboto', sans-serif;
@@ -51,7 +66,7 @@ p {font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--text-header);
         }
 
 .nav-link:hover {color: #404bbf}
@@ -72,7 +87,7 @@ p {font-family: 'Roboto', sans-serif;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;}
+        color: var(--text-header)}
 
 
 .hero-header {font-family: 'Roboto', sans-serif;
@@ -81,7 +96,7 @@ p {font-family: 'Roboto', sans-serif;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;}
+    color: var(--white-text)}
 
 .OrderService {
     font-family: 'Roboto', sans-serif;
@@ -91,8 +106,8 @@ p {font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;    
-    background: #4D5AE5;}
+    color: var(--text-header);    
+    background: var(--nav-color) ;}
 
 .section-header {font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -101,7 +116,7 @@ p {font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;}
+    color: var(--text-header);}
 
 .section-team {font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -110,7 +125,7 @@ p {font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;}
+    color: var(--text-header)}
 
 footer {background: #2E2F42;}
 
@@ -122,14 +137,14 @@ footer {background: #2E2F42;}
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;}
+    color: var(--main-btn)}
 
 .fut {font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color:  #F4F4FD;}
+    color:  var(--main-btn)}
 
 .button-portfolio {font-family: 'Roboto', sans-serif;
         font-weight: 500;
