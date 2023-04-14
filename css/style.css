@@ -42,7 +42,8 @@ p {font-family: 'Roboto', sans-serif;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;}
+    color: #4D5AE5;
+}
 
     .nav-link {font-family: 'Roboto', sans-serif;
         text-decoration: none;
@@ -52,6 +53,9 @@ p {font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         color: #2E2F42;
         }
+
+.nav-link:hover {color: #404bbf}
+
     address {font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -148,3 +152,4 @@ footer {background: #2E2F42;}
         letter-spacing: 0.04em;
         color:  #FFFFFF; 
         background-color:  #404BBF;}
+.button-all :hover, .button-all {color: #FFFFFF; }
