@@ -14,7 +14,7 @@
   }
 
   .link {text-decoration: none;}
-  
+  list-style: none 
 body {font-family: 'Roboto', sans-serif;
     background-color: var(--white-text);
     color: var(--main-text-color)
@@ -167,4 +167,4 @@ footer {background: #2E2F42;}
         letter-spacing: 0.04em;
         color:  #FFFFFF; 
         background-color:  #404BBF;}
-.button-all :hover, .button-all {color: #FFFFFF; }
+.button-all :hover, .button-all :focus {color: #FFFFFF; }
