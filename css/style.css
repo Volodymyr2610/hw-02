@@ -1,18 +1,16 @@
 .link {text-decoration: none;
     list-style: none;}
-
-.logo {text-decoration: none;
-    list-style: none;}
+body {font-family: 'Roboto', sans-serif;
+    color: #434455;}
 
     ul {list-style: none;}
 
     h1 { color: #FFFFFF;}
 
-    body {font-family: 'Roboto'; sans-serif;}
 
 h2 {color: #2E2F42;}
 
-h3 {font-family: 'Roboto'; sans-serif;
+h3 {font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -20,7 +18,7 @@ h3 {font-family: 'Roboto'; sans-serif;
     letter-spacing: 0.02em;
     color: #2E2F42;}
 
-p {font-family: 'Roboto'; sans-serif;
+p {font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -34,17 +32,35 @@ p {font-family: 'Roboto'; sans-serif;
 
 .our-team {color: #F4F4FD;}
 
-.logo {font-family: 'Raleway'; sans-serif;
+.logo {text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;}
 
-.header-studio-word {font-family: 'Raleway';sans-serif;
+    .nav-link {font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        }
+    address {font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;}
+
+.header-studio-word {font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 21px;
@@ -54,23 +70,8 @@ p {font-family: 'Roboto'; sans-serif;
         text-transform: uppercase;
         color: #2E2F42;}
 
-address {font-family: 'Roboto';sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;}
 
-.nav-link {font-family: 'Roboto'; sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    }
-
-.hero-header {font-family: 'Roboto'; sans-serif;
+.hero-header {font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
@@ -79,7 +80,7 @@ address {font-family: 'Roboto';sans-serif;
     color: #FFFFFF;}
 
 .OrderService {
-    font-family: 'Roboto'; sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -89,7 +90,7 @@ address {font-family: 'Roboto';sans-serif;
     color: #FFFFFF;    
     background: #4D5AE5;}
 
-.section-header {font-family: 'Roboto'; sans-serif;
+.section-header {font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -98,7 +99,7 @@ address {font-family: 'Roboto';sans-serif;
     text-transform: capitalize;
     color: #2E2F42;}
 
-.section-team {font-family: 'Roboto'; sans-serif;
+.section-team {font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -109,7 +110,7 @@ address {font-family: 'Roboto';sans-serif;
 
 footer {background: #2E2F42;}
 
-.logo-foot {font-family: 'Raleway'; sans-serif;
+.logo-foot {font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -119,14 +120,14 @@ footer {background: #2E2F42;}
     text-transform: uppercase;
     color: #F4F4FD;}
 
-.fut {font-family: 'Roboto'; sans-serif;
+.fut {font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color:  #F4F4FD;}
 
-.button-portfolio {font-family: 'Roboto'; sans-serif;
+.button-portfolio {font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -137,7 +138,7 @@ footer {background: #2E2F42;}
         color:#4D5AE5; 
         background: #F4F4FD; }
     
- .button-all {font-family: 'Roboto'; ans-serif;
+ .button-all {font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px; 
