@@ -217,17 +217,15 @@ footer {
   color: var(--nav-color);
   background-color: var(--button-portfolio);
 }
+.button-all :hover {color: #ffffff; background-color: #404bbf;}
+.button-all :focus {color: #ffffff; background-color: #404bbf;}
 
 .nav-item {
   color: var(--nav-color);
   background-color: var(--Light-mode-ourteam);
 }
 
-.button-all :hover,
-.button-all :focus {
-  color: var(--white-text);
-  background-color: var(--nav-color-acctive);
-}
+
 
 .button-portfolio {
   font-family: "Roboto", sans-serif;
@@ -242,11 +240,9 @@ footer {
   background-color: var(--button-portfolio);
 }
 
-.button-portfolio :hover,
-.button-portfolio :focus {
-  color: var(--white-text);
-  background-color: var(--nav-color-acctive);
-}
+.button-portfolio :hover {color: #f4f4fd; background-color: #404bbf;}
+.button-portfolio :focus {color: #ffffff; background-color: #404bbf;}
+  
 .button {
   cursor: pointer;
 }
@@ -258,7 +254,8 @@ footer {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-color: var(--text-header);}
+  color: var(--text-header);
+}
 
 .progect-descr {
   font-family: "Roboto", sans-serif;
