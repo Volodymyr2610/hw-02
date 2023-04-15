@@ -134,7 +134,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -147,7 +147,7 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--text-header);
@@ -155,7 +155,7 @@ a {
 .title-job {font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5x;
     text-align: center;
     letter-spacing: 0.02em;
 color: var(--main-text-color);
@@ -169,7 +169,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -181,7 +181,7 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-btn);
 }
@@ -192,29 +192,51 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
-}
-
-.button-all {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-text);
+  background-color: var(--nav-color-acctive);
 }
 .button-all :hover,
 .button-all :focus {
-  color: #ffffff;
+  color: var(--white-text);
+  background-color: var(--nav-color-acctive);
 }
 
+.button-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--white-text);
+    background-color: var(--nav-color-acctive);
+}
+
+.button-portfolio :hover,
+.button-portfolio :focus {
+    color: var(--white-text);
+    background-color: var(--nav-color-acctive);
+  }
+.button {cursor: pointer;}
+
+.progect-title {font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+
+.progect-descr {font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+color: var(--main-text-color);}
