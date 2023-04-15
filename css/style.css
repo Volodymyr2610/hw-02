@@ -213,7 +213,7 @@ footer {
   color: var(--nav-color);
   background-color: var(--button-portfolio);
 }
-.button-all :hover {color: #ffffff; background-color: #404bbf;}
+.button-all :hover,
 .button-all :focus {color: #ffffff; background-color: #404bbf;}
 
 .nav-item {
