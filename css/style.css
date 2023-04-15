@@ -7,9 +7,11 @@
   --nav-color: #4d5ae5;
   --nav-color-acctive: #404bbf;
   --white-text: #ffffff;
+  --button-portfolio:#F4F4FD ;
+
 
   --advantages-paragraph: #757575;
-  --footer-bgc: ;
+  --button-portfolio:#F4F4FD ;
   --contacts-color: #757575;
   
   --black: #000000;
@@ -202,8 +204,8 @@ footer {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--white-text);
-  background-color: var(--nav-color-acctive);
+  color: var(--nav-color);
+  background-color: var(--button-portfolio);
 }
 .button-all :hover,
 .button-all :focus {
@@ -220,8 +222,8 @@ footer {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: var(--white-text);
-    background-color: var(--nav-color-acctive);
+    color: var(--nav-color);
+    background-color: var(--button-portfolio);
 }
 
 .button-portfolio :hover,
