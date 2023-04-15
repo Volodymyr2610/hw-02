@@ -68,14 +68,11 @@ body {
   color: var(--text-header);
 }
 .nav-link :hover,
-.nav-link :focus {
-  color: var(--nav-color-acctive);
-}
+.nav-link :focus {color: var(--nav-color-acctive);}
 
 .contact{font-style: normal;}
 .contact-link :hover,
-.contact-link :focus,
-.contact-link :active {
+.contact-link :focus {
   color: var(--nav-color-acctive);
 }
 
@@ -83,7 +80,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -96,7 +93,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-text);
@@ -114,8 +111,7 @@ body {
     background: var(--nav-color);
   }
 .booking-btn :hover,
-.booking-btn :focus,
-.booking-btn :active {color: var(--nav-color-acctive);}
+.booking-btn :focus {color: var(--nav-color-acctive);}
 
 h1 {
   color: var(--white-text);
@@ -126,6 +122,15 @@ a {
   color: var(--text-header);
 }
 
+.advantage-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-header);}
+
+
 .section-team {
   background-color: var(--Light-mode-ourteam);
 }
@@ -134,7 +139,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -155,7 +160,7 @@ a {
 .title-job {font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5x;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
 color: var(--main-text-color);
