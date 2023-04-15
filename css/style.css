@@ -68,10 +68,10 @@ body {
   color: var(--text-header);
 }
 .nav-link :hover,
-.nav-link :focus,
-.nav-link :active {
+.nav-link :focus {
   color: var(--nav-color-acctive);
 }
+
 .contact{font-style: normal;}
 .contact-link :hover,
 .contact-link :focus,
