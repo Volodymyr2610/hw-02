@@ -62,7 +62,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-header);
+  /* color: var(--text-header); */
+  color: #434455;
 }
 
 .nav-link:hover,
@@ -112,10 +113,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-text);
   background: var(--nav-color);
+  cursor: pointer;
 }
 .booking-btn:hover,
 .booking-btn:focus {
-  color: #404bbf;
+  background-color:  #404bbf;
 }
 
 h1 {
@@ -136,12 +138,26 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-header);
 }
+.advantage-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
+.section-header {
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-header);
+}
 .section-team {
   background-color: var(--Light-mode-ourteam);
 }
 
-.section-team-our {
+/* .section-team-our {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -150,7 +166,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--text-header);
-}
+} */
 
 .member {
   background: var(--white-text);
