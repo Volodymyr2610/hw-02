@@ -127,29 +127,9 @@ a {
   color: var(--text-header);
 }
 
-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
-
-
 .section-team {
   background-color: var(--Light-mode-ourteam);
 }
-
 
 .section-team-our {
   font-family: "Roboto", sans-serif;
@@ -162,6 +142,24 @@ p {
   color: var(--text-header);
 }
 
+.member {background: #ffffff;}
+
+.team-worker {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-header);
+  }
+.title-job {font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+color: var(--main-text-color);
 }
 
 footer {
@@ -188,6 +186,8 @@ footer {
   letter-spacing: 0.02em;
   color: var(--main-btn);
 }
+
+/**PORTFOLIO**/
 
 .button-portfolio {
   font-family: "Roboto", sans-serif;
@@ -218,3 +218,26 @@ footer {
 .button-all :focus {
   color: #ffffff;
 }
+
+
+
+
+
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+  }
