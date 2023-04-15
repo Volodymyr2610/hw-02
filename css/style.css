@@ -40,7 +40,8 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--nav-color);
+  /* color: var(--nav-color); */
+  color: #2e2f42;
 }
 
 .header-studio-word {
@@ -52,7 +53,9 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-header);
+  /* color: var(--text-header); */
+  /* color: #2e2f42; */
+  color: #4D5AE5;
 }
 
 .nav-link {
@@ -81,7 +84,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  /* color: var(--main-text-color); */
+  color: #434455;
 }
 
 .contact-link:hover,
