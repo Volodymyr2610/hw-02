@@ -73,10 +73,6 @@ body {
 .contact {
   font-style: normal;
 }
-.contact-link :hover,
-.contact-link :focus {
-  color: #404bbf;
-}
 
 .contact-item {
   font-family: "Roboto", sans-serif;
@@ -85,6 +81,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.contact-item :hover,
+.contact-item :focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -201,28 +202,6 @@ footer {
 
 /**PORTFOLIO**/
 
-.button-all {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--nav-color);
-  background-color: var(--button-portfolio);
-}
-.button-all :hover,
-.button-all :focus {color: #ffffff; background-color: #404bbf;}
-
-.nav-item {
-  color: var(--nav-color);
-  background-color: var(--Light-mode-ourteam);
-}
-
-
-
 .button-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -236,9 +215,12 @@ footer {
   background-color: var(--button-portfolio);
 }
 
-.button-portfolio :hover {color: #f4f4fd; background-color: #404bbf;}
-.button-portfolio :focus {color: #ffffff; background-color: #404bbf;}
-  
+.button-portfolio :focus,
+.button-portfolio :hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
 .button {
   cursor: pointer;
 }
