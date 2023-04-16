@@ -36,12 +36,12 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   /* color: var(--nav-color); */
-  color: #4d5ae5;
+  /* color: #4d5ae5; */
+  color: var(--nav-color);
 }
 
 .header-studio-word {
@@ -49,30 +49,29 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   /* color: var(--text-header); */
   /* color: #2e2f42; */
-  color: #2e2f42;
+  color: var(--text-header);
 }
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: var(--text-header); */
   /* color: #434455; */
-  color: #2e2f42;
+  /* color: #2e2f42; */
+  color: var(--text-header);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  /* color: #404bbf; */
+  color: var(--nav-color-acctive);
 }
 
 .contact {
@@ -80,18 +79,18 @@ body {
 }
 
 .contact-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   /* color: var(--main-text-color); */
-  color: #434455;
+  /* color: #434455; */
+  color: var(--main-text-color);
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  /* color: #404bbf; */
+  color: var(--nav-color-acctive);
 }
 
 .hero {
@@ -122,7 +121,8 @@ body {
 }
 .booking-btn:hover,
 .booking-btn:focus {
-  background-color:  #404bbf;
+  /* background-color:  #404bbf; */
+  background-color: var(--nav-color-acctive);
 }
 
 h1 {
@@ -135,8 +135,6 @@ a {
 }
 
 .advantage-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -149,7 +147,6 @@ a {
 }
 
 .section-header {
-    font-family: "Roboto", sans-serif;
   font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -178,7 +175,6 @@ a {
 }
 
 .team-worker {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -187,8 +183,6 @@ a {
   color: var(--text-header);
 }
 .title-job {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -197,7 +191,8 @@ a {
 }
 
 footer {
-  background: #2e2f42;
+  /* background: #2e2f42; */
+  background: var(--color-hero);
 }
 
 .logo-foot {
@@ -205,7 +200,6 @@ footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -213,8 +207,6 @@ footer {
 }
 
 .fut {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -238,8 +230,10 @@ footer {
 
 .button-portfolio:focus,
 .button-portfolio:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  /* color: #ffffff;
+  background-color: #404bbf; */
+  color: var(--white-text);
+  background-color: var(--nav-color-acctive);
 }
 
 .button {
@@ -247,7 +241,6 @@ footer {
 }
 
 .progect-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -256,8 +249,6 @@ footer {
 }
 
 .progect-descr {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
