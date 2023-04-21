@@ -13,7 +13,7 @@
   --team-section-style: ;
 }
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -23,9 +23,10 @@ p,
 ul {
   margin: 0;
 }
+
 ul {
   padding-left: 0;
-} */
+} 
 
 .link {
   text-decoration: none;
@@ -46,9 +47,15 @@ body {
   margin: 0 auto;
 }
 
+.jobs-container,
+.team-members,
+.advantages-list {
+  display: flex;
+}
+
 .image {
   display: block;
-} */
+} 
 
 /* Header */
 
@@ -67,7 +74,7 @@ body {
 .link-ul,
 .contact-link {
   display: flex;
-} */
+}
 
 .main-nav {
   align-items: center;
@@ -75,6 +82,7 @@ body {
 
 .logo {
   display: block;
+  margin-right: 76px;
   text-decoration: none;
   list-style: none;
   font-family: "Raleway", sans-serif;
@@ -112,9 +120,20 @@ body {
   color: var(--nav-color-acctive);
 }
 
+.header-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .contact {
+  margin-left: auto;
+  align-items: center;
   font-style: normal;
 }
+
+.contact-item:not(:last-child) {
+   margin-right: 40px;
+  }
+
 
 .contact-link {
   font-size: 16px;
@@ -128,8 +147,17 @@ body {
   color: var(--nav-color-acctive);
 }
 
+/* Hero section */
+
 .hero {
   background: var(--color-hero);
+   padding: 188px 0; 
+
+  /* position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px; */
 }
 
 .hero-header {
@@ -140,6 +168,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-text);
+
+  margin: 0 auto;
+  margin-bottom: 48px; 
+  display: block;
+  max-width: 496px;
 }
 
 .booking-btn {
@@ -151,19 +184,20 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-text);
   background: var(--nav-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
+  display: block;
+  margin: 0 auto;
+  width: 169px;
+
+  flex-direction: row;
+  padding: 16px;
+  gap: 10px;
   border-radius: 4px;
-  padding: 16px 32px;
 }
 
-/* display: flex;
-  border-radius: 4px;
-  padding: 16px;
-  left: 636px;
-  top: 428px;
-  left: 636px;
-} */
+
 .booking-btn:hover,
 .booking-btn:focus {
   /* background-color:  #404bbf; */
@@ -179,18 +213,45 @@ a {
   color: var(--text-header);
 }
 
+/* ADVANTAGES*/
+
+.advantages-list {
+  /* display: flex; */
+  padding: 120px 0;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.advantages-list :not(:last-child) {
+  margin-right: 24px;
+}
+
+.advantage-item {
+  flex-wrap: wrap;
+}
+
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-header);
+
+  margin-bottom: 8px;
 }
 .advantage-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*What Are We Doing*/
 
+.job-section {
+  padding: 120px;
+}
+
+.jobs-container {
+  width: calc((100%-60px) / 3);
+}
 .section-header {
   font-weight: 700;
   font-size: 36px;
@@ -199,21 +260,19 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--text-header);
-}
-.section-team {
-  background-color: var(--Light-mode-ourteam);
+
+  margin-bottom: 72px;
 }
 
-/* .section-team-our {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--text-header);
-} */
+/*Team*/
+
+.section-team {
+  background-color: var(--Light-mode-ourteam);
+  padding: 120px;
+}
+
+
+
 
 .member {
   background: var(--white-text);
