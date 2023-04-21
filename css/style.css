@@ -13,7 +13,7 @@
   --team-section-style: ;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -25,7 +25,7 @@ ul {
 }
 ul {
   padding-left: 0;
-}
+} */
 
 .link {
   text-decoration: none;
@@ -48,7 +48,7 @@ body {
 
 .image {
   display: block;
-}
+} */
 
 /* Header */
 
@@ -67,7 +67,7 @@ body {
 .link-ul,
 .contact-link {
   display: flex;
-}
+} */
 
 .main-nav {
   align-items: center;
@@ -99,10 +99,6 @@ body {
 }
 
 .nav-link {
-  display: inline -block;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin: 0;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -152,25 +148,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--white-text);
   background: var(--nav-color);
   cursor: pointer;
 
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 16px 32px;
 }
 
 /* display: flex;
