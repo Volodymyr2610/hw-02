@@ -250,8 +250,13 @@ a {
 }
 
 .jobs-container {
-  width: calc((100%-60px) / 3);
+  width: calc((100%-48px) / 3);
 }
+
+.jobs-item:not(:first-child) {
+  margin-left: 24px;
+}
+
 .section-header {
   font-weight: 700;
   font-size: 36px;
@@ -268,16 +273,28 @@ a {
 
 .section-team {
   background-color: var(--Light-mode-ourteam);
-  padding: 120px;
+  padding: 120px 0;
 }
 
+.team-members {
+  width: calc((100%-72px) / 4);
+  display: flex;
+}
 
-
+.member:not(:first-child) {
+  margin-left: 24px;
+}
 
 .member {
   background: var(--white-text);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.worker-team {
+  text-align: center;
+  padding: 32px 16px;
+}
 .team-worker {
   font-weight: 500;
   font-size: 20px;
@@ -285,6 +302,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-header);
+  margin-bottom: 8px;
 }
 .title-job {
   font-size: 16px;
