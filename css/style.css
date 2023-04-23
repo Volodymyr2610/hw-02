@@ -310,11 +310,19 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  margin-top: 8px;
+
 }
+
+/*FOOTER*/
 
 footer {
   /* background: #2e2f42; */
   background: var(--color-hero);
+}
+
+.footer-section {
+  padding: 100px 0;
 }
 
 .logo-foot {
@@ -326,6 +334,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-btn);
+  display: inline-block;
 }
 
 .fut {
@@ -333,6 +342,9 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-btn);
+  margin-top:  16px;
+  display: block;
+  max-width: 264px;
 }
 
 /**PORTFOLIO**/
@@ -348,6 +360,9 @@ footer {
   letter-spacing: 0.04em;
   color: var(--nav-color);
   background-color: var(--button-portfolio);
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  padding: 16px 24px;
 }
 
 .button-portfolio:focus,
@@ -375,4 +390,25 @@ product-card product-text .progect-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.footer-section {
+  padding: 96px 0;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+.nav-item:not(:last-child) {
+  margin-right: 24px;
+}
+.nav-item {
+  margin-top: 96px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
